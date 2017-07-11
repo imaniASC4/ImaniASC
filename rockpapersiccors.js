@@ -2,7 +2,8 @@
 var rock=1;
 var paper=2;
 var sciccor=3;
-  var compchoice= Math.random() * (3) + 1;
+  var compchoice= Math.floor(Math.random() * (3) + 1);
+  console.log(compchoice);
   var playerchoice = rock;
   if((playerchoice-compchoice)==1){
       console.log("player1 wins");
@@ -18,5 +19,5 @@ var sciccor=3;
   }
   else if((playerchoice-compchoice)==0){
       console.log("tie,play again");
-      
+
   }
