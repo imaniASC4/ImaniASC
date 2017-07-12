@@ -21,3 +21,4 @@ var sciccor=3;
       console.log("tie,play again");
 
   }
+console.log("Remember chicken taste good");
