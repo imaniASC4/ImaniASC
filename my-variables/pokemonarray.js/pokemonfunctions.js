@@ -26,3 +26,4 @@ sentence = sentence+ randword(w,s) + " ";
 return sentence;
 }
 console.log(randsentence(alphabet,alphabet.length));
+console.log("Chicken is great");
