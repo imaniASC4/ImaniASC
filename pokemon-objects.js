@@ -36,3 +36,6 @@ console.log("you attacked "+ pokemons[tritan].name+ " and dealt " + attack + " d
 printpokemon(pokemons);
 
 var addpokemon= require('prompt-sync')();
+var newone = new pokemon(addpokemon("Add a pokemon name(string) :"),addpokemon("Add pokemon type(string) :"), addpokemon("Add pokemon's hp(integer):"),addpokemon("add pokemon's defense (integer)"),addpokemon("add pokemon attack(integer)"),addpokemon("is it legendary? (true or false)"))
+pokemons.push(newone);
+printpokemon(pokemons);

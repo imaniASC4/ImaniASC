@@ -9,4 +9,4 @@ console.log("Welcome to "+ masharray[fightcenter]);
 var secondquestion=["luigi","mario"];
 var firstanswer = ask("How many times do u wanna strike? (maximum amount of strikes at once is three)");
 var secondanswer = ask("Who do u want to fight?");
-console.log("You hit "+ secondanswer+ firstquestion[firstanswer] +"times. Too bad, Mewtwo wins.");//whos mewtwo
+console.log("You hit "+ secondanswer+ firstquestion[firstanswer] +" times. Too bad, Mewtwo wins.");//whos mewtwo
