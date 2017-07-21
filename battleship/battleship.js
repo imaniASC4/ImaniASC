@@ -11,7 +11,7 @@ function randisit(){
 var colors = ['red','white','blue'];
 var xpos=100;
 var ypos = 100;
-var boxes=[[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0][0,0,0],[0,0,0],[0,0,0]];
+var boxes=[[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0][0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0][0,0,0],[0,0,0],[0,0,0]];
 var u=0;
 var h=0;
 var choice = 'blue';
@@ -19,7 +19,7 @@ function setup(){
     createCanvas(800,800);
     background(150,20,145);
     for(var s = 0; s<boxes.length;s++){
-    if(xpos>300){
+    if(xpos>700){
         ypos+=100;
         xpos=100;
         boxes[s][2]= randisit();
