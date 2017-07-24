@@ -2,9 +2,11 @@ var x = 500;
 var y = 650;
 var ax =0;
 var ay = 100;
+var it = 0;
 var bullets= [];
 var enemies=[];
 var score =0 ;
+var rainbow = ['blue','red','green','yellow','white'];
 var isit = true;
 for (var ad = 0; ad<5 ; ad++){
     ax+=100;
@@ -57,8 +59,6 @@ if(bullets[t][1]>=enemies[re][1]&&bullets[t][1]<=enemies[re][1]+50){
     if(bullets[t][0]>=enemies[re][0]&&bullets[t][0]<=enemies[re][0]+50){
         score += 200;
            enemies[re][1]=100;
-       // }
-    
 }
 }
     fill('blue');
@@ -66,15 +66,26 @@ if(bullets[t][1]>=enemies[re][1]&&bullets[t][1]<=enemies[re][1]+50){
 }
 }
 for(var qwe = 0; qwe < enemies.length;qwe++){
-enemies[qwe][1]+=2;
+/*if (score >=10000){
+    enemies[qwe][1]+=4;
+}
+else 
+    enemies[qwe][1]+=2;
+*/
 
+it = 350;
+if(enemies[qwe][0]>=it+25){
+    enemies[qwe][0]-=2;
+}
+else if(enemies[qwe][0]==it){
+enemies[qwe][0]+=2;
+}
 }
 textSize(40);
-fill(130,150,80);
+fill(rainbow[Math.floor(Math.random()*rainbow.length)]);
 text('welcome to wack a space invader',300,50);
-fill('white')
 text("score  ",50,50 );
-text(score,200,50)
+text(score,170,50)
 fill('blue');
 rect(x,650,25,50);
 for(var qwe = 0; qwe < enemies.length;qwe++){
