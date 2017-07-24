@@ -1,0 +1,19 @@
+body 
+{
+     background: url("pics/dark-triangles.png"); 
+    text-align : center;
+    border: 30px double whitesmoke; 
+    padding : 30px;
+}
+.firstone
+{
+    margin: auto;
+    color:whitesmoke;
+}
+.everything
+{
+   margin : 20px auto;
+border : 5px solid red;
+padding : 6px; 
+background-color : teal;
+}
