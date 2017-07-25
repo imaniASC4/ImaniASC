@@ -1,0 +1,16 @@
+body {
+   
+    border: 1px solid white;
+    padding: 1px;
+}
+.toppart{
+    padding: 5px 40px 5px 40px;
+    border:1px solid white;
+    background: black;
+    color: white;
+}
+.container{
+    background:black;
+    text-align: left;
+    padding: 200px 600px 200px 5px
+}
