@@ -1,0 +1,28 @@
+body{
+    border: 5px solid black;
+    background: url("pics/bughatti.png");
+    background-size:cover;
+    /* background: url("pics/coolcars"); */
+}
+.topbar{
+   padding: 2px 0px 0px 0px;
+   text-align:top;
+    max-width:100%;
+
+}
+.middlebutton{
+    border:10px solid black;
+ text-align:right;
+    
+    padding: 35% 50% 0% 0%;
+    max-width: 300px;
+    background: cover;
+    background:url("pics/ferrariwheel.jpg");
+}
+.bottompics{
+
+    
+ 
+    text-align:bottom;
+    text-align:center;
+}

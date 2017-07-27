@@ -1,0 +1,21 @@
+body{
+    background:url("imani-pics/matrixxxx.jpg");
+    background:cover;
+}
+.heading{
+    text-align:center;
+    text-align:top;
+    color:white;
+}
+.inputs{
+    padding: 5px 5px 5px 5px;
+    text-align:center;
+}
+input[type="submit"]{
+            background:blueviolet;
+            color:green;
+}
+.login{
+    text-align:center;
+
+}
