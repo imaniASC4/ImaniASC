@@ -1,6 +1,7 @@
 body{
-    background:url("imani-pics/matrixxxx.jpg");
-    background:cover;
+    background:url("imani-pics/stars.jpg");
+    background-size:cover;
+  
 }
 .heading{
     text-align:center;
@@ -17,5 +18,21 @@ input[type="submit"]{
 }
 .login{
     text-align:center;
-
+    padding:20px 0px 0px 0px;
+}
+.navigator{
+    text-align:bottom;
+    
+}
+.video{
+    max-width:300px
+}
+.secondvideo{
+    max-width:300px;
+}
+.thirdvideo{
+    max-width:300px;
+}
+.videos{
+    padding:100px 0px 0px 0px;
 }
