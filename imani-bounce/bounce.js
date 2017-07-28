@@ -12,7 +12,7 @@ function setup(){
     background(120,13,100);
     textSize(40);
     fill('black');
-    text('welcome to bounce',10,50);
+
 }
 function draw(){
 setup();
