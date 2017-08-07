@@ -1,0 +1,18 @@
+body{
+    text-align:center;
+    margin:auto;
+    background:url("gorunpics/xc.jpg");
+    background-size:cover;
+    color:whitesmoke;
+}
+.bottom{
+    padding:150px 0px 0px 0px;
+}
+.top{
+    /* background:url("gorunpics/sky.jpg"); */
+    background-size:cover;
+    padding:20px 0px 100px 0px;
+}
+input[type="submit"]{
+    background:blue;
+}

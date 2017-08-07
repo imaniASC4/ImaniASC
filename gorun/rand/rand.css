@@ -1,0 +1,9 @@
+body{
+    background:url("randpics/runsky.jpg");
+    background-size:cover;
+    margin:auto;
+    text-align:center;
+}
+.head{
+    padding:10% 0% 0% 0%;
+}
