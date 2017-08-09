@@ -6,8 +6,9 @@ $.ajax({
     url:link+key,
     success:function(data){
         dataType:'json',
-        str=data.cod;
+        str=data.list[0].main.temp;
          console.log(str);
+         console.log(data);
     }
 
 })
