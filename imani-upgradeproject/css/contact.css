@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display');
+body{
+        font-family: 'Sedgwick Ave Display', cursive;
+
+}
+.home{
+    padding: 10% 0px 10% 0px;
+
+}
+.contactme{
+    text-align:center;
+    font-size:30px;
+}

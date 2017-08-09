@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display');
+body{
+    background:white;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+/* First page */
+/*First slide  */
+#container1{
+    background:#0000E8;
+    width: 100%;
+    margin:0 auto;
+    color:#6969FF;
+}
+.header1{
+    text-align:center;
+    padding: 15% 0px 10% 0px;
+}
+.header1img{
+    margin:auto;
+    text-align:center;
+    padding:0px 0px 10% 0px;
+}
+.links{
+  font-size: 30px;
+    padding: 3% 10% 5% 10%;
+}
+/*Second slide  */
+#container2{
+    text-align:center;
+    width: 100%;
+    margin: 0 auto;
+    border-bottom:5px solid #0080E3;
+    background:white;
+}
+.twopic{
+    padding: 10% 0px 5% 0px;
+}
+.twoh1{
+padding:0px 0px 7% 0px;
+
+}
+.twoh3{
+    padding:0px 25% 10% 25%;
+}
+/*Third slide  */
+#container3{
+   border:white;
+    width: 100%;
+    margin:0 auto;
+    text-align:center;
+}
+.threeh1{
+    padding:10% 0px 10% 0px;
+}
+.green{
+    font-size:50px;
+    padding: 0px 0px 3% 0px;
+    color:black;
+}
+/*Fourth slide  */
+.contactme{
+    text-align:center;
+    padding:0px 0px 5% 0px;
+}
+#ugh{
+    padding: 3% 3% 3% 3%;
+}
+.container4{
+    background:#0000E8;
+    width: 100%;
+    color:#6969FF;  
+}
+.contactme{
+    padding:5% 0% 5% 0%;
+}
